@@ -1,0 +1,22 @@
+/*if we add !important after, it won't get modify by others
+/mnt/d/documents/github/CoderAcademy/style.css*/
+
+#title
+{
+    color: rgb(18, 19, 18);
+}
+
+.text
+{
+    font-size: 20px;
+    color: rgb(74, 74, 228);
+}
+
+footer{
+    color:rgb(218, 90, 116);
+}
+
+.navbar
+{
+    font-size: 30px;
+}
