@@ -16,19 +16,38 @@
             <li>
                 <a href="contatti.html">Contatti</a>
             </li>
+            <li>
+                <a href="listino.html">Listino Completo</a>
+                <ul>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() 
+                    {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+                    function closeNav()
+                    {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
+                         <!-- The overlay -->
+                    <div id="myNav" class="overlay">
+                        <!-- Button to close the overlay navigation -->
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <!-- Overlay content -->
+                        <div class="overlay-content">
+                            <a href="vini.html">VINI</a>
+                            <a href="bianchi.html">BIANCHI</a>
+                            <a href="rossi.html">ROSSI</a>
+                            <a href="bollicine">BOLLICINE</a>
+                            <a href="analcolici.html">ANALCOLICI</a>
+                        </div>
+                    </div>
+                </ul>
+            </li>
         </ul>
-            <ul class="wrap">
-                <li>
-                    <a href="birra.html">BIRRE</a>
-                </li>
-                <li>
-                    <a href="vini.html">VINI</a>
-                </li>
-                <li>
-                    <a href="analcolici.html">ANALCOLICI</a>
-                </li>
-            </ul>
         <p class="text">
+            <!-- <img id="bottles" src="bottles.jpg"> -->
             This is a paragraph
         </p>
     </body>

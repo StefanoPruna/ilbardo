@@ -1,30 +1,34 @@
 /*if we add !important after, it won't get modify by others
 /mnt/d/documents/github/CoderAcademy/style.css*/
 
+/* Use the change below to adjust for different devices
+@media screen and (max-width: 600px) {
+    .article {
+      width: 100%;
+    }
+    @media screen and (max-width: 1000px) {
+    .article {
+      width: 80%;
+    }
+    .sidebar {
+      width: 15%;
+    }
+  } */
+
+@media screen and (max-height: 400px)
+{
+    #title
+    {
+        color: rgb(24, 248, 24);
+        background-color: greenyellow;
+    }
+}
+
 #title
-{
-    color: rgb(18, 19, 18);
-}
+    {
+        color: rgb(18, 19, 18);
+    }
 
-/*
-#wrap
-{
-    width: 20%;
-    height: 50px;
-    margin: 0;
-    z-index: 99;
-    position: relative;
-    background-color: #cc1010;
-}
-*/
-
-#wrap
-{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(134, 9, 9);
-    display: inline-block;
-}
 .navbar
 {
     height: 50px;
@@ -33,7 +37,7 @@
     position: absolute;    
 }
 
-.navbar li 
+.navbar li
 {
     height: auto;
     width: 162px;
@@ -46,7 +50,7 @@
     background-color: #d41515;
 }
 
-.navbar a 
+.navbar a
 {
     padding: 18px 0;
     border-left: 1px solid #ccc9c9;
@@ -57,11 +61,11 @@
 
 .navbar li:hover,
     a:hover
-    {
-        background-color: #444444;
-    }
+{
+    background-color: #444444;
+}
 
-.navbar li ul 
+.navbar li ul
 {
     display: none;
     height: auto;
@@ -92,14 +96,198 @@
     background-color: #a3a1a1;
 }
 
-.text
+/* .navextra
+{
+    position: absolute; 
+    transform: translate3d(111px, 0px, 0px);
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+}
+
+.navextra li
+{
+    height: auto;
+    width: 162px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #d41515;
+}
+
+.navextra a
+{
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navextra li:hover,
+    a:hover
+{
+        background-color: #444444;
+}
+
+.navextra li ul
+{
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navextra li:hover ul
+{
+    display: block;
+}
+
+.navextra li ul li
+{
+    background-color: #444444;
+}
+
+.navextra li ul li a
+{
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+}
+
+.navextra li ul li a:hover
+{
+    background-color: #a3a1a1;
+} */
+
+#blond
+{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottles
+{
+    border-radius: 8px;
+}
+
+.testo
 {
     font-size: 20px;
     color: rgb(74, 74, 228);
-    margin-top: 20px;
+    margin-top: 300px;
 }
 
 footer
 {
     color:rgb(141, 8, 34);
 }
+
+/*Dropright menu*/
+ /* The Overlay (background) */
+ .overlay {
+    /* Height & width depends on how you want to reveal the overlay */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 1.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 40px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  } 
+
+  .text {
+    /* white-space: nowrap;  */
+    color: rgb(2, 2, 2);
+    font-size: 45px;
+    position: absolute;
+    text-align: justify;
+    overflow: hidden;
+    font: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .ilbardo {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #818181; */
+    overflow: hidden;
+    width: 75%;
+    height: 0;
+    transition: 1s ease;
+  }
+  
+  .container:hover .ilbardo {
+    bottom: 0;
+    height: 100%;
+  }
+
+  #blond:hover
+  {
+      opacity: 0.8;
+  }
