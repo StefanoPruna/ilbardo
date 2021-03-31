@@ -29,6 +29,7 @@
         color: rgb(18, 19, 18);
     }
 
+    /* Main top menu */
 .navbar
 {
     height: 50px;
@@ -96,91 +97,31 @@
     background-color: #a3a1a1;
 }
 
-/* .navextra
-{
-    position: absolute; 
-    transform: translate3d(111px, 0px, 0px);
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    position: absolute; 
-}
-
-.navextra li
-{
-    height: auto;
-    width: 162px;
-    float: left;
-    text-align: center;
-    list-style: none;
-    font: normal bold 13px/1em Arial, Verdana, Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #d41515;
-}
-
-.navextra a
-{
-    padding: 18px 0;
-    border-left: 1px solid #ccc9c9;
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-.navextra li:hover,
-    a:hover
-{
-        background-color: #444444;
-}
-
-.navextra li ul
-{
-    display: none;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-.navextra li:hover ul
-{
-    display: block;
-}
-
-.navextra li ul li
-{
-    background-color: #444444;
-}
-
-.navextra li ul li a
-{
-    border-left: 1px solid #444444;
-    border-right: 1px solid #444444;
-    border-top: 1px solid #c9d4d8;
-    border-bottom: 1px solid #444444;
-}
-
-.navextra li ul li a:hover
-{
-    background-color: #a3a1a1;
-} */
-
+/* Main picture in index */
 #blond
 {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 
+#blond:hover
+{
+    opacity: 0.8;
+}
+
+/* picture in listino page */
 .bottles
 {
     border-radius: 8px;
 }
 
-.testo
+/* Text in index */
+.text
 {
     font-size: 20px;
     color: rgb(74, 74, 228);
@@ -251,25 +192,32 @@ footer
     }
   } 
 
-  .text {
+  /* Text when comes down */
+  .testo {
     /* white-space: nowrap;  */
     color: rgb(2, 2, 2);
     font-size: 45px;
     position: absolute;
     text-align: justify;
     overflow: hidden;
-    font: bold;
+    font-weight: 600;
+    /* font-family: ; */
+    color: rgb(12, 240, 61);
+    mix-blend-mode: exclusion;
+    filter: drop-shadow() invert(1) contrast(9);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
 
+  /* When hover on the picture in index, the container with the text comes down */
   .container {
     position: relative;
     width: 100%;
   }
 
+  /* the box that drops down*/
   .ilbardo {
     position: absolute;
     bottom: 100%;
@@ -285,9 +233,4 @@ footer
   .container:hover .ilbardo {
     bottom: 0;
     height: 100%;
-  }
-
-  #blond:hover
-  {
-      opacity: 0.8;
   }
