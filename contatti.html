@@ -43,8 +43,26 @@
                     20841 Carate Brianza MB, 
                     Italy
                 </iframe>
-                <h4>Dai Mandami un messaggio!</h4>
-                
+                <h4 class="send-text">Dai Mandami un messaggio!
+                   <form action="mailto:stefano.pruna@googlemail.com" method="POST" enctype="text/plain">
+                       <P>
+                           Nome:
+                           <input name="Nome" type="text"> 
+                       </P>
+                       <p>
+                           E-mail:
+                           <input type="text" name="email" id="email">
+                       </p>
+                       <p>
+                           Messaggio:
+                           <textarea name="Messaggio" id="comment" cols="45" rows="5"></textarea>
+                       </p>
+                       <p>
+                           Invia
+                           <input type="submit" value="Invia">
+                       </p>
+                   </form> 
+                </h4>
             </div>
             <ul class="social-icons">
                 <li><a href="https://www.facebook.com/ilbardocarate"><img src="image/facebook.png" /></a></li>

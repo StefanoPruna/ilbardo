@@ -29,6 +29,12 @@
         color: rgb(18, 19, 18);
     }
 
+    /*Il bardo a casa text in index */
+.bardo-casa
+{
+  font-size: 20px;
+}
+
     /* Main top menu */
 .navbar
 {
@@ -194,10 +200,10 @@ footer
     text-align: justify;
     overflow: hidden;
     font-weight: 600;
-    /* font-family: ; */
-    color: rgb(12, 240, 61);
+    /* font-family: ; 
+    color: rgb(12, 240, 61); 
     mix-blend-mode: exclusion;
-    filter: drop-shadow() invert(1) contrast(9);
+    filter: drop-shadow() invert(1) contrast(9); */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -246,7 +252,7 @@ h3
   margin-top: 150px;
 }
 
-h4
+.send-text
 {
   text-align: right;
   margin-left: 350px;
