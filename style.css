@@ -120,17 +120,10 @@
     border-radius: 8px;
 }
 
-/* Text in index */
-.text
-{
-    font-size: 20px;
-    color: rgb(74, 74, 228);
-    margin-top: 300px;
-}
-
 footer
 {
     color:rgb(141, 8, 34);
+    padding-top: 40px;
 }
 
 /*Dropright menu*/
@@ -233,4 +226,63 @@ footer
   .container:hover .ilbardo {
     bottom: 0;
     height: 100%;
+  }
+
+/* Image in contatti */
+.text
+{
+    font-size: 20px;
+    color: rgb(74, 74, 228);
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*testo in contatti */
+h3
+{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h4
+{
+  text-align: right;
+  margin-left: 350px;
+  font-size: 50px;
+}
+
+#container-social
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+  /*social icons*/
+  .social-icons
+  {
+    text-align: center;
+  }
+
+  .social-icons li
+  {
+    display: block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+  .social-icons li a
+  {
+    border-bottom: none;
+  }
+
+  .social-icons li img
+  {
+    width: 5%;
+    height: 5%;
+    float: left;
+    margin-right: 50px;
+    padding-left: 20px;
   }
