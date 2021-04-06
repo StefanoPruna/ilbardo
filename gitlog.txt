@@ -1,0 +1,65 @@
+commit 59d543859f951723201701faef90fbcf9cddea5e
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Tue Apr 6 12:33:49 2021 +1000
+
+    Add and improve Contatti
+
+commit f42827ac91ce535f8b627efd088a0679e89fc16a
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Wed Mar 31 12:45:27 2021 +1100
+
+    Added photos and style on the menu
+
+commit 3c22c2be43ecec0365027035072e483262d44947
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Tue Mar 30 16:59:15 2021 +1100
+
+    Pictures
+    
+    And stylying
+
+commit dc22cb2a6da6383cd2116c3d5a699705e700a026
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Mon Mar 29 16:57:27 2021 +1100
+
+    More pages
+
+commit a2a033cbeec29720904fae6db0d7df5a1ef25cf8
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Mon Mar 29 13:44:12 2021 +1100
+
+    Stylesheet
+    
+    Added the stylesheet page
+
+commit aa9603190e8dd3b42981fa3e2f8bf825ba571dd7
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Mar 29 13:42:33 2021 +1100
+
+    il bardo
+
+commit 4f0ff006782e796cdc34b2c98fc7b5cef500869b
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Mar 29 13:42:03 2021 +1100
+
+    listino page
+
+commit 01706221496a03ea7549f7409cfdb929a9d21c8a
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Mar 29 13:41:43 2021 +1100
+
+    contatti page
+
+commit 584878166912a2eff2f245fe74fc832577af814c
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Mar 29 13:39:42 2021 +1100
+
+    Osteria il Bado
+
+commit 013ad8303e66edd4ba28c661aa9238f7c6db389e
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Mon Mar 29 13:37:06 2021 +1100
+
+    Osteria Il bardo
+    
+    Started
